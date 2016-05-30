@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CFBF74351CFC95F200B684ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBF74341CFC95F200B684ED /* main.m */; };
+		CFBF743D1CFC966300B684ED /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBF743C1CFC966300B684ED /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		CFBF74311CFC95F200B684ED /* recovery */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = recovery; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFBF74341CFC95F200B684ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFBF743B1CFC966300B684ED /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		CFBF743C1CFC966300B684ED /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				CFBF74341CFC95F200B684ED /* main.m */,
+				CFBF743B1CFC966300B684ED /* Student.h */,
+				CFBF743C1CFC966300B684ED /* Student.m */,
 			);
 			path = recovery;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFBF74351CFC95F200B684ED /* main.m in Sources */,
+				CFBF743D1CFC966300B684ED /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +215,7 @@
 		CFBF74391CFC95F200B684ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -216,6 +223,7 @@
 		CFBF743A1CFC95F200B684ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -239,6 +247,7 @@
 				CFBF743A1CFC95F200B684ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
